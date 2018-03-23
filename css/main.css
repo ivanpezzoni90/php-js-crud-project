@@ -1,0 +1,186 @@
+header{
+    background: #FFA465;
+    height: 60px;
+    left: 15px;
+    right: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: auto;
+    height: 30px;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 15px;
+}
+.headerTitle{
+    text-align:center;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    padding: 10px;
+}
+.mainContent{
+    padding-top:50px;
+}
+
+.space-top-xs{
+	padding-top: 10px;
+}
+.space-bottom-xs{
+	padding-bottom: 10px;
+}
+.space-top-s{
+	padding-top: 20px;
+}
+.space-bottom-s{
+	padding-bottom: 20px;
+}
+/*-----Buttons------*/
+
+.btn.btn-eleva-orange{
+    background: #ffa465;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.btn.btn-eleva-orange:hover{
+	background: #fc7f29 !important;
+	color: white !important;
+}
+.btn.btn-eleva-orange:focus{
+	background: #fc7f29 !important;
+	color: white !important;
+}
+.google-map-postazioni {
+	height: 400px;
+	width: 100%;
+}
+.table-eleva thead{
+	background: #ffa465!important;
+	color: white;
+	font-weight: bold;
+}
+.table-eleva th{
+	text-align: center !important;
+   	padding: 15px 30px !important;
+   	text-transform: uppercase;
+}
+.table-eleva tbody tr.even{
+	background: #fff4ed!important;
+}
+.table-eleva tbody tr.odd:hover{
+	background: #fff4ed!important;
+}
+.table-eleva td{
+	padding: 20px 30px !important;
+   	text-align: center !important;
+   	text-transform: uppercase;
+    cursor: pointer;
+}
+.table-eleva tbody{
+  	border: 1px solid #b7b7b7;
+}
+.table-eleva{
+	font-weight: bold;
+	width: 100% !important;
+}
+
+.mobile-not-visible{
+	display: block !important;
+}
+.mobile-visible{
+	display: none !important;
+}
+.element-not-visible{
+	display: none;
+}
+select.wider{
+    height: 40px !important;
+    width: 100%;
+}
+input.wider{
+    height: 30px !important;
+    width: 100%;
+}
+label{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.google-map{
+    height: 400px;
+	width: 100%;
+}
+.title-eleva{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFA465;
+    font-family: sans-serif;
+}
+
+.eleva-tabs li a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+.eleva-tabs li.active a{
+    color: white !important;
+    background: #FFA465 !important;
+}
+.eleva-tabs li:hover a{
+    color: white !important; 
+    background: #FFA465 !important;
+}
+.eleva-tabs li:focus a{
+    color: white !important;
+    background: #FFA465 !important;
+}
+.eleva-box-mobile{
+    border: 1px solid #ccc;
+    padding: 15px 10px;
+    text-align: center;
+}
+.eleva-box-mobile a{
+    text-transform: uppercase;
+    color: #FFA465;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+
+@media (max-width:1170px)  {
+    
+    .mobile-not-visible{
+        display: none !important;
+    }
+    .mobile-visible{
+        display: block !important;
+    }
+
+    .dataTables_length{
+        display: none !important;
+    }
+    .dataTables_filter{
+        display: none !important;
+    }
+    .dataTables_info{
+        display: none !important;
+    }
+    .dataTables_paginate{
+        display: none !important;
+    }
+        
+}
