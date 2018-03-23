@@ -138,8 +138,10 @@
                                 <div class="span2 mobile-not-visible"></div>
                             </div>
                         </div><!--./aggiungi-persona-->
-                        
-                        <div class="persone-table datatable-container mobile-not-visible space-top-s">
+                        <div class="center space-top-s">
+                            <span class="title-eleva">Fai clic su una riga per modificarla</span>
+                        </div>
+                        <div class="persone-table datatable-container mobile-not-visible">
                             <table id="personeTable" class="table table-eleva">
                                 <thead>
                                     <tr>
@@ -231,7 +233,10 @@
                                 <div id="add-map" class="google-map-add-impianti google-map"></div>
                             </div>
                         </div><!--./aggiungi-impianto-->
-                        <div class="impianti-table datatable-container mobile-not-visible space-top-s">
+                        <div class="center space-top-s">
+                            <span class="title-eleva">Fai clic su una riga per modificarla</span>
+                        </div>
+                        <div class="impianti-table datatable-container mobile-not-visible">
                             <table id="impiantiTable" class="table table-eleva">
                                 <thead>
                                     <tr>
@@ -261,7 +266,7 @@
                 </div><!--./tab-content-->
                 
                 <!--Modals-->
-                <button id="personeImpiantiModalBtn" type="button" type="hidden" 
+                <button id="personeImpiantiModalBtn" class="element-not-visible" 
                     data-toggle="modal" data-target="#personeImpiantiModal">
                 </button>
                 <div id="personeImpiantiModal" class="modal fade element-not-visible" 
@@ -288,7 +293,7 @@
                     </div>
                 </div> <!--#/personeImpiantiModal-->
                 
-                <button id="personaEditModalBtn" type="button" type="hidden"
+                <button id="personaEditModalBtn" class="element-not-visible" 
                     data-toggle="modal" data-target="#personaEditModal">
                 </button>
                 <div id="personaEditModal" class="modal fade element-not-visible" 
@@ -364,7 +369,7 @@
                     </div>
                 </div> <!--#/personaEditModal-->
                 
-                <button id="impiantoEditModalBtn" type="button" type="hidden"
+                <button id="impiantoEditModalBtn" class="element-not-visible" 
                     data-toggle="modal" data-target="#impiantoEditModal">
                 </button>
                 <div id="impiantoEditModal" class="modal fade element-not-visible" 
@@ -382,33 +387,35 @@
                                 <form id="editImpiantoForm">
                                     <input type="hidden" id="impiantoIdEdit">
                                     <div class="row-fluid space-top-s space-bottom-s">
-                                        <div class="span2 mobile-not-visible"></div>
+                                        <div class="span1 mobile-not-visible"></div>
                                         <div class="span4">
                                             <label>Nome</label>
                                             <input type="text" id="impiantoNomeEdit" 
                                                 class="wider">
                                         </div>
+                                        <div class="span1 mobile-not-visible"></div>
                                         <div class="span4">
                                             <label>Indirizzo</label>
                                             <input type="text" id="impiantoIndirizzoEdit" 
                                                 class="wider" 
                                                 placeholder="Digita un indirizzo">
                                         </div>
-                                        <div class="span2 mobile-not-visible"></div>
+                                        <div class="span1 mobile-not-visible"></div>
                                     </div>
                                     <div class="row-fluid space-top-s space-bottom-s">
-                                        <div class="span2 mobile-not-visible"></div>
+                                        <div class="span1 mobile-not-visible"></div>
                                         <div class="span4">
                                             <label>Latitudine</label>
                                             <input type="text" id="impiantoLatitudineEdit" 
                                                 class="wider" disabled>
                                         </div>
+                                        <div class="span1 mobile-not-visible"></div>
                                         <div class="span4">
                                             <label>Longitudine</label>
                                             <input type="text" id="impiantoLongitudineEdit" 
                                                 class="wider" disabled>
                                         </div>
-                                        <div class="span2 mobile-not-visible"></div>
+                                        <div class="span1 mobile-not-visible"></div>
                                     </div>
                                 </form><!--#/editImpiantoForm-->
                                 <div class="row-fluid center element-not-visible" id="impiantoErrorMessageEdit">

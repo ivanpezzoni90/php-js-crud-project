@@ -160,6 +160,10 @@ label{
 .center{
     text-align: center;
 }
+/* per visualizzare autocomplete di google sulle modali di bootstrap */
+.pac-container {
+    z-index: 9999 !important;
+}
 
 @media (max-width:1170px)  {
     

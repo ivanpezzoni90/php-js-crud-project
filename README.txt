@@ -3,6 +3,8 @@ Progetto di Test per Eleva
 Note
 
 -	Rinominare la cartella del progetto in  /PhpProject1 per evitare di rompere gli endpoint REST
+-	Il dump del database si trova nella cartella /dump (dump-nomedb-timestamp), uno blank con il database vuoto, l'altro con alcuni dati inseriti
+-	Ho committato per sbaglio alcuni file di progetto creati da NetBeans, era troppo tardi per metterli nel gitignore
 
 
 Specifiche
