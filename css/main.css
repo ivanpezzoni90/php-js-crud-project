@@ -1,5 +1,5 @@
 header{
-    background: #FFA465;
+    background: #489296;
     height: 60px;
     left: 15px;
     right: 20px;
@@ -44,7 +44,7 @@ header{
 /*-----Buttons------*/
 
 .btn.btn-eleva-orange{
-    background: #ffa465;
+    background: #489296;
     border: none;
     color: white;
     font-weight: bold;
@@ -53,11 +53,11 @@ header{
     padding: 10px 20px;
 }
 .btn.btn-eleva-orange:hover{
-	background: #fc7f29 !important;
+	background: #004549 !important;
 	color: white !important;
 }
 .btn.btn-eleva-orange:focus{
-	background: #fc7f29 !important;
+	background: #004549 !important;
 	color: white !important;
 }
 .google-map-postazioni {
@@ -65,7 +65,7 @@ header{
 	width: 100%;
 }
 .table-eleva thead{
-	background: #ffa465!important;
+	background: #489296!important;
 	color: white;
 	font-weight: bold;
 }
@@ -75,10 +75,10 @@ header{
    	text-transform: uppercase;
 }
 .table-eleva tbody tr.even{
-	background: #fff4ed!important;
+	background: #ebf4f5!important;
 }
 .table-eleva tbody tr.odd:hover{
-	background: #fff4ed!important;
+	background: #ebf4f5!important;
 }
 .table-eleva td{
 	padding: 20px 30px !important;
@@ -92,6 +92,9 @@ header{
 .table-eleva{
 	font-weight: bold;
 	width: 100% !important;
+}
+.table-eleva th{
+    border-bottom: none !important;
 }
 
 .mobile-not-visible{
@@ -124,12 +127,12 @@ label{
 .title-eleva{
     text-align: center;
     text-transform: uppercase;
-    color: #FFA465;
+    color: #489296;
     font-family: sans-serif;
 }
 
 .eleva-tabs li a{
-    color: black;
+    color: #489296;
     text-transform: uppercase;
     font-weight: bold;
     width: 150px;
@@ -137,15 +140,15 @@ label{
 }
 .eleva-tabs li.active a{
     color: white !important;
-    background: #FFA465 !important;
+    background: #489296 !important;
 }
 .eleva-tabs li:hover a{
     color: white !important; 
-    background: #FFA465 !important;
+    background: #489296 !important;
 }
 .eleva-tabs li:focus a{
     color: white !important;
-    background: #FFA465 !important;
+    background: #489296 !important;
 }
 .eleva-box-mobile{
     border: 1px solid #ccc;
@@ -154,7 +157,7 @@ label{
 }
 .eleva-box-mobile a{
     text-transform: uppercase;
-    color: #FFA465;
+    color: #489296;
     font-weight: bold;
 }
 .center{
