@@ -179,6 +179,7 @@ function aggiungiImpianto(){
         },
         error: function(data){
             console.log(data);
+            alert(data);
         }
     });
 }
@@ -199,6 +200,7 @@ function searchImpianti(){
         },
         error: function(data){
             console.log(data);
+            alert(data);
         }
     });
 }
@@ -379,6 +381,8 @@ function initMap(){
     searchImpianti();
 }
 
+//Unused
+//Call geolocate() to get a precise position on the map center
 function geolocate() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {

@@ -47,6 +47,7 @@
                     <li><a data-toggle="tab" href="#mappaTab" id="mappaTrigger">Mappa</a></li>
                 </ul>
                 <div class="tab-content">
+                    
                     <div id="personeTab" class="tab-pane active">
                         <div class="space-bottom-m title-eleva">
                             <h2>Le mie persone</h2>
@@ -252,6 +253,7 @@
                         </div>
                         <div class="impianti-box mobile-visible space-top-s"></div>
                     </div><!--#/impiantiTab-->
+                    
                     <div id="mappaTab" class="tab-pane">
                         <div class="space-bottom-m title-eleva">
                             <h2>La mia mappa</h2>
@@ -262,10 +264,12 @@
                         <div class="space-top-s">
                             <div id="map" class="google-map-impianti google-map"></div>
                         </div>
-                    </div>
+                    </div><!--#/mappaTab-->
+                    
                 </div><!--./tab-content-->
                 
                 <!--Modals-->
+                
                 <button id="personeImpiantiModalBtn" class="element-not-visible" 
                     data-toggle="modal" data-target="#personeImpiantiModal">
                 </button>
@@ -432,9 +436,10 @@
                 </div> <!--#/impiantoEditModal-->
                 
                 <!--end modals-->
+                
             </div><!--./mainContent-->
             
-        </div>
+        </div><!--./container-->
         
         <script>
             var personeTableCreated = false;

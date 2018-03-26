@@ -1,3 +1,6 @@
+
+/*General style*/
+
 header{
     background: #489296;
     height: 60px;
@@ -28,7 +31,6 @@ header{
 .mainContent{
     padding-top:50px;
 }
-
 .space-top-xs{
 	padding-top: 10px;
 }
@@ -41,62 +43,6 @@ header{
 .space-bottom-s{
 	padding-bottom: 20px;
 }
-/*-----Buttons------*/
-
-.btn.btn-eleva-orange{
-    background: #489296;
-    border: none;
-    color: white;
-    font-weight: bold;
-    width: 100%;
-    text-transform: uppercase;
-    padding: 10px 20px;
-}
-.btn.btn-eleva-orange:hover{
-	background: #004549 !important;
-	color: white !important;
-}
-.btn.btn-eleva-orange:focus{
-	background: #004549 !important;
-	color: white !important;
-}
-.google-map-postazioni {
-	height: 400px;
-	width: 100%;
-}
-.table-eleva thead{
-	background: #489296!important;
-	color: white;
-	font-weight: bold;
-}
-.table-eleva th{
-	text-align: center !important;
-   	padding: 15px 30px !important;
-   	text-transform: uppercase;
-}
-.table-eleva tbody tr.even{
-	background: #ebf4f5!important;
-}
-.table-eleva tbody tr.odd:hover{
-	background: #ebf4f5!important;
-}
-.table-eleva td{
-	padding: 20px 30px !important;
-   	text-align: center !important;
-   	text-transform: uppercase;
-    cursor: pointer;
-}
-.table-eleva tbody{
-  	border: 1px solid #b7b7b7;
-}
-.table-eleva{
-	font-weight: bold;
-	width: 100% !important;
-}
-.table-eleva th{
-    border-bottom: none !important;
-}
-
 .mobile-not-visible{
 	display: block !important;
 }
@@ -130,6 +76,65 @@ label{
     color: #489296;
     font-family: sans-serif;
 }
+.center{
+    text-align: center;
+}
+/*-----Buttons------*/
+
+.btn.btn-eleva-orange{
+    background: #489296;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.btn.btn-eleva-orange:hover{
+	background: #004549 !important;
+	color: white !important;
+}
+.btn.btn-eleva-orange:focus{
+	background: #004549 !important;
+	color: white !important;
+}
+
+/*Tables*/
+
+.table-eleva thead{
+	background: #489296!important;
+	color: white;
+	font-weight: bold;
+}
+.table-eleva th{
+	text-align: center !important;
+   	padding: 15px 30px !important;
+   	text-transform: uppercase;
+}
+.table-eleva tbody tr.even{
+	background: #ebf4f5!important;
+}
+.table-eleva tbody tr.odd:hover{
+	background: #ebf4f5!important;
+}
+.table-eleva td{
+	padding: 20px 30px !important;
+   	text-align: center !important;
+   	text-transform: uppercase;
+    cursor: pointer;
+}
+.table-eleva tbody{
+  	border: 1px solid #b7b7b7;
+}
+.table-eleva{
+	font-weight: bold;
+	width: 100% !important;
+}
+.table-eleva th{
+    border-bottom: none !important;
+}
+
+/**Tabs*/
 
 .eleva-tabs li a{
     color: #489296;
@@ -150,6 +155,9 @@ label{
     color: white !important;
     background: #489296 !important;
 }
+
+/*Mobile box*/
+
 .eleva-box-mobile{
     border: 1px solid #ccc;
     padding: 15px 10px;
@@ -160,13 +168,13 @@ label{
     color: #489296;
     font-weight: bold;
 }
-.center{
-    text-align: center;
-}
-/* per visualizzare autocomplete di google sulle modali di bootstrap */
+
+/* to show google autocomplete above boostrap modals */
 .pac-container {
     z-index: 9999 !important;
 }
+
+/*media queries*/
 
 @media (max-width:1170px)  {
     
